@@ -1,0 +1,16 @@
+generated: '2026-10-23'
+method: none
+source:
+- https://zapier.com/apps/sparkgeo/integrations
+- https://n8n.io/integrations/sparkgeo/
+- https://composio.dev/toolkits/sparkgeo
+- https://monid.ai/tools/sparkgeo
+checked:
+- https://composio.dev/toolkits/sparkgeo
+- https://monid.ai/tools/sparkgeo
+- https://n8n.io/integrations/sparkgeo/
+- https://zapier.com/apps/sparkgeo/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

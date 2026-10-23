@@ -1,0 +1,61 @@
+generated: '2026-10-23'
+method: probed
+generator: harvest-packages.py
+source: registry metadata endpoints (registry.npmjs.org, pypi.org, rubygems.org, api.nuget.org, packagist.org, crates.io) ; github.com/sparkgeo
+ownership_rule: 'official: true only when the registry metadata (homepage, repository, author, URLs) names the provider''s domain (security/sparkgeo-domain-security.yml,
+  sparkgeo.com) or its accepted GitHub org (sparkgeo).'
+packages:
+- name: prescient-sdk
+  registry: github
+  url: https://github.com/sparkgeo/prescient-sdk
+  language: Python
+  official: true
+  version: null
+  published: '2026-10-21'
+  source_repo: https://github.com/sparkgeo/prescient-sdk
+  evidence: repository in github.com/sparkgeo, whose profile names the provider's domain
+- name: stac-fastapi-indexed
+  registry: github
+  url: https://github.com/sparkgeo/stac-fastapi-indexed
+  language: Python
+  official: true
+  version: null
+  published: '2026-01-21'
+  source_repo: https://github.com/sparkgeo/stac-fastapi-indexed
+  evidence: repository in github.com/sparkgeo, whose profile names the provider's domain
+- name: tile-id-api
+  registry: github
+  url: https://github.com/sparkgeo/tile-id-api
+  language: Go
+  official: true
+  version: null
+  published: '2024-07-09'
+  source_repo: https://github.com/sparkgeo/tile-id-api
+  evidence: repository in github.com/sparkgeo, whose profile names the provider's domain
+- name: template-python-cdk
+  registry: github
+  url: https://github.com/sparkgeo/template-python-cdk
+  language: Python
+  official: true
+  version: null
+  published: '2022-06-16'
+  source_repo: https://github.com/sparkgeo/template-python-cdk
+  evidence: repository in github.com/sparkgeo, whose profile names the provider's domain
+- name: vscode-python-debugging-demo
+  registry: github
+  url: https://github.com/sparkgeo/vscode-python-debugging-demo
+  language: Python
+  official: true
+  version: null
+  published: '2021-11-25'
+  source_repo: https://github.com/sparkgeo/vscode-python-debugging-demo
+  evidence: repository in github.com/sparkgeo, whose profile names the provider's domain
+- name: cdk-lib
+  registry: github
+  url: https://github.com/sparkgeo/cdk-lib
+  language: TypeScript
+  official: true
+  version: null
+  published: '2021-04-21'
+  source_repo: https://github.com/sparkgeo/cdk-lib
+  evidence: repository in github.com/sparkgeo, whose profile names the provider's domain
